@@ -1,0 +1,163 @@
+<html>
+<center>
+    <h1>HTML Knowledge Base</h1>
+    <h2>Review Material</h2>
+</center>
+<br>
+
+<hr size="3" color=#000000>
+
+<h2>Chapter 1: HTML Basics </h2>
+<p>HTML stands for HyperText Markup Language. The language relies on tags and content within those tags.
+    For example: the following line uses the h1 tag. <br> &lt;h1> Hi there!&lt;\h1> <br>
+    This tag is used for creating headers on pages. Tags like this one have a beginning tag
+    and an end tag (&lt;h1>, &lt;\h1> respectively). Some tags are self closing tags, meaning one should not use
+    a close tag with these sort of tags. For example, &lt;br> creates a new line on the page, and requires no closing
+    tag. This makes sense, since a line break doesn't really have a beginning and end. The computer just does it.
+    However, the computer needs to know when headers are finished, or really any tag which includes content or is
+    modifying content (eg. center). We have to tell when we're done.
+    <br><br>
+    The next piece to know about tags is that some of them have attributes. The header tags, for example, have the
+    attribute
+    allign, and can be utilized as follows: <br>
+    &lth1 align="center">Hello World!&lt/h1> <br>
+    This creates the header, "Hello World", and centers it on the page. Attributes are useful for adding customizations
+    to elements, thereby aiding in creating a certain page style and format.
+    <br>
+    The examples here are quite limited; whereas the amount of tags and attributes needs to know in order to create an
+    appealing site
+    are quite numerous. Fortunately, there are useful resources on the web that make finding pertinent information much
+    easier
+    than trying to memorize it all. The following sites are quite handy for finding whatever one needs when coding a
+    webpage.
+    I'm liking devdocs a lot so far. I can find whatever I'm looking for by simply typing in the key term. Nice and
+    fast.
+    If all else fails, google has my back. Have to get that thrill of efficiency :)
+    <br><br>
+    <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+    <br>
+    <a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network Docs</a>
+    <br>
+    <a href="https://devdocs.io/" target="_blank">devdocs.io</a>
+    <br><br>
+    Note: use &lt;!--Comments go here--> for notes/comments in code
+    <!--comments!!!-->
+<h2>Useful Resources</h2>
+<p>Here's a gem of a site. You can see what webpages looked like years ago. Check out google in beta mode!</p>
+<a href="https://web.archive.org/" target="_blank">Web Archives</a>
+<br>
+<a href=https://web.archive.org/web/19990427094925/http://www.google.com/ target="_blank"> Google Beta Version</a>
+<br>
+<a href="https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?adlt=strict&toWww=1&redig=CD0E13D54D1948878724D970B3B5B2EB&view=vs-2022"
+    target="_blank"> Keyboard Shortcuts in VS</a> (my favorite is auto format: shift + alt + f)
+<br>
+<a href="https://docs.emmet.io/cheat-sheet/" target="_blank">Emmet documentation</a>
+<br>
+<a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/?adlt=strict&toWww=1&redig=A5B19348007644A3A15DB359CC9280AA"
+    target="_blank">Understanding Character Encoding</a>
+<h2>Side Note</h2>
+Evidently, choosing which tag to use isn't as simple as one may think. When it comes to choosing the correct tag
+for text content, for example, don't assume that just because your tag does what you want, that it is actually
+accomplishing what you want. The tag i and the tag em both make their content italisized but em is actually
+what tells browsers that the information is stressed. There is a semantic difference. See <a
+    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em" target="_blank">
+    i vs em.</a> The tag strong vs the tag b is another example. Both make the text bold, but their semantics are
+different.
+<h2>More Info</h2>
+&lt;ul> is used for unordered lists. In other words, bullet points. &lt;ol>, similarly, is used for ordered lists. Then,
+for ul you use style="list-style-type:_____" and fill the blank with whatever attribute you'd like (circle,disc,or
+square).
+For ol you use type and or start.
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank">
+    See Docoumentation (ol).
+</a>
+Within the ul or ol, use &lt;li> to create list elements (bullet points).
+<br><br>
+<Strong>Example</Strong>
+<ul style="list-style-type:disc">
+    <li>ul.1</li>
+    <ol type="cirlce">
+        <li>ol.1</li>
+        <li>ol.2</li>
+        <li>ol.3</li>
+    </ol>
+    <li>ul.2</li>
+    <li>ul.3</li>
+</ul>
+</p>
+
+<hr size="3" color=#000000>
+
+<h2>Chapter 2: Intermediate</h2>
+<h3>Tables</h3>
+<ul type="disc">
+    <li>Table Structure
+        <br>
+        &lt;table>
+        <br>
+        &lt;tr>
+        <!--Table Row Creation-->
+        <br>
+        &lt;td>cell info&lt;/td>
+        <!--Table Data/Column Creation-->
+        <br>
+        &lt;td>cell info&lt;/td>
+        <!--Column Two Info-->
+        <br>
+        &lt;/tr>
+        <!--End Table Row-->
+        <br>
+        &lt;/table>
+        <!--End Table-->
+        <br>
+    </li>
+</ul>
+
+<p>
+    The tag table creates the table. The tag tr creates a table row. The tag td creates a table cell/column.
+    This is where one puts content into their table. You can create as many rows and columns as you like.
+    First useful attribute I've learned about for tables is cellpadding which puts however much space one wants
+    between all the elements in the table.
+</p>
+
+<h3>Forms</h3>
+<p>We probably wouldn't get very far without forms, because forms allow us to take input from the user.
+    And of course, the vast majority of websites do this, for text inputs that is.
+    <br>
+    Creating forms is quite simple. Just use the tag form. Haven't learned much about its attributes yet
+    but for now we'll use the method attribute and set it to post.
+    <br><br>
+    <strong>Label:</strong> this tag puts text on our page which we can use to label form elements such as
+    a text box.
+    <br><br>
+    <strong>Input:</strong> this tag can create an input space for the user, for text, or a click box, or other
+    types of inputs. The type atrribute for this tag has many possibilities.
+    See <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank">MDN</a>
+    <br>
+</p>
+<p>
+    <strong>Example</strong>
+</p>
+<form class="" method="post">
+    <label>Your Name</label></td>
+    <input type="text" name="" value=""></td>
+    <input type="submit">
+</form>
+<p>
+    <strong>Code</strong> <br><br>
+    &lt;form class="" method="post"> <br>
+    &lt;label>Your Name &lt;/label> &lt;/td> <br>
+    &lt;input type="text" name="" value=""> &lt;/td> <br>
+    &lt;input type="submit"> <br>
+    &lt;/form> <br>
+</p>
+<p>
+    For more information, see <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form"
+        target="_blank">MDN</a>
+</p>
+
+<hr size="3" color="#000000">
+
+<h3><a href="index.html">Home</a>
+
+</html>
