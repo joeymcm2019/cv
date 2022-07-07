@@ -43,7 +43,8 @@ h2 {
 
 table {
     position: relative;
-    margin: 20px;
+    margin: 20px auto;
+
 }
 
 p {
@@ -54,10 +55,6 @@ p {
 
 #lastP{
     margin-bottom: 20px;
-}
-
-.p1 {
-    text-align: center;
 }
 
 
@@ -113,18 +110,22 @@ strong {
 }
 
 .codeIMG {
-    width: 25%;
+    width: 15%;
     padding-top: 30px;
 }
 
-.skillP1 {
-    text-align: left;
+.outroP {
+    width: 90%;
+}
+
+.skillP {
+    text-align: center;
+    width: 90%;
 }
 
 .soccerIMG {
     position: relative;
-    width: 15%;
-     
+    width: 10%;
 }
 
 .table1 {
@@ -143,7 +144,6 @@ strong {
 
 .skills {
     text-align: center;
-    width: 50%;
     margin: 100px auto;
 }
 
