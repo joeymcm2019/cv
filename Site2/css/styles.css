@@ -123,6 +123,12 @@ strong {
     width: 90%;
 }
 
+.skillP2 {
+    text-align: center;
+    width: 90%;
+    padding-bottom: 10px;
+}
+
 .soccerIMG {
     position: relative;
     width: 10%;
