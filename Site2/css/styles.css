@@ -7,26 +7,49 @@ body {
 h1 {
     font-size: 90px;
     font-family: "Pinyon Script";
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: rgb(29, 71, 126);
 }
 
 hr {
     width: 5%;
     border-style: dotted none none none;
     border-width: 5px;
-    border-color: #c4c4c4;
-    margin-top: 40px;
+    border-color: #e7e7e7;
+    margin-top: 90px;
     margin-bottom: 40px;
 }
 
-table {
-    padding: 10px;
+h2 {
+    color:rgb(29, 71, 126);
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+
+#strong1 {
+    font-size: 20px;
+    color:rgb(29, 71, 126)
+}
+#mKern {
     position: relative;
+    right: 45px;
+    /*moving closer to left character */
+}
+
+table {
+    position: relative;
+    margin: 20px;
 }
 
 p {
     line-height: 30px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .p1 {
@@ -40,7 +63,10 @@ strong {
 }
 
 .bottom {
-    text-align: center
+    text-align: center;
+    background-color:rgb(129, 171, 226);
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -56,9 +82,9 @@ strong {
     left: 55%;
 }
 
-.header {
+.top {
     height: 505px;
-    padding-top: 30px;
+    padding-top: 0px;
     margin-top: 0px;
     background-color: rgb(222, 240, 255);
     text-align: center;
@@ -84,13 +110,33 @@ strong {
 
 .codeIMG {
     position: relative;
-    width: 15%;
+    width: 25%;
+    margin-top: 10px;
+    top: 30px;
+    float: left;
+    left: 30px;
 }
+
 
 .soccerIMG {
     position: relative;
-    width: 8%;
-    padding-left: 10px;
+    width: 15%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    float: right;
+    top: 10px;
+    right: 10px;
+    
+}
+
+.table1 {
+    position: relative;
+    left: 40px;
+}
+
+.table2 {
+    position: relative;
+    right: 10px;
 }
 
 .profile {
@@ -101,8 +147,12 @@ strong {
 
 .skills {
     text-align: center;
+    width: 50%;
+    margin: 100px auto;
 }
 
 
-
-
+.contact-me {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
