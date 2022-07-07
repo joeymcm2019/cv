@@ -147,6 +147,9 @@ strong {
     margin: 100px auto;
 }
 
+.pBottom {
+    margin-bottom: 10px;
+}
 
 .contact-me {
     margin-top: 100px;
