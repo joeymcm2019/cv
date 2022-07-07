@@ -1,0 +1,108 @@
+body {
+    background-color: #f2f5ff;
+    margin: 0px;
+    font-family:  verdana, sans-serif;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: 60px;
+    font-family: "Pinyon Script";
+}
+
+hr {
+    width: 5%;
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: #c4c4c4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+table {
+    padding: 10px;
+    position: relative;
+}
+
+p {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.p1 {
+    text-align: center;
+}
+
+
+strong {
+    font-family: verdana, sans-serif;
+}
+
+.bottom {
+    text-align: center
+
+}
+
+.cloud {
+    position: absolute;
+    width: 10%;
+    left: 37%;
+}
+
+.cloud2 {
+    position: absolute;
+    width: 10%;
+    left: 54%;
+}
+
+.header {
+    height: 200px;
+    background-color: rgb(222, 240, 255);
+    padding: 50px;
+    text-align: center;
+}
+
+#mountImg {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    bottom: 0px;    
+}
+
+.mountain {
+    display: flex;
+    top: 200px;
+    height: 50%;
+    background-color: rgb(222, 240, 255);
+}
+
+.middle {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.codeIMG {
+    position: relative;
+    width: 15%;
+}
+
+.soccerIMG {
+    position: relative;
+    width: 8%;
+    padding-left: 10px;
+}
+
+.profile {
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+}
+
+
+
+
