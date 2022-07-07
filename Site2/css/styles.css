@@ -1,3 +1,6 @@
+a {
+    color:rgb(29, 71, 126);
+}
 body {
     background-color: #f2f5ff;
     margin: 0px;
@@ -34,6 +37,10 @@ h2 {
 #strong1 {
     font-size: 20px;
     color:rgb(29, 71, 126)
+}
+
+#hello {
+    margin-bottom: 25px;
 }
 #mKern {
     position: relative;
@@ -146,6 +153,10 @@ strong {
     margin-left: 10px;
     margin-top: 10px;
     text-align: center;
+}
+
+.profilePic {
+    padding-bottom: 30px;
 }
 
 .skills {
