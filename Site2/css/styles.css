@@ -12,7 +12,7 @@ h1 {
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 40px;
-    color: rgb(29, 71, 126);
+    color: #1d477e;
 }
 
 hr {
@@ -155,9 +155,32 @@ strong {
 
 .pBottom {
     margin-bottom: 10px;
+    width: 90%;
 }
 
 .contact-me {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+.btn {
+    background: #4f98f7;
+    background-image: -webkit-linear-gradient(top, #4f98f7, #1d477e);
+    background-image: -moz-linear-gradient(top, #4f98f7, #1d477e);
+    background-image: -ms-linear-gradient(top, #4f98f7, #1d477e);
+    background-image: -o-linear-gradient(top, #4f98f7, #1d477e);
+    background-image: linear-gradient(to bottom, #4f98f7, #1d477e);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 30px 10px 29px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #4f98f7;
+    text-decoration: none;
+  }
