@@ -7,6 +7,12 @@ body {
     padding-bottom: 8%;
 }
 
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+}
+
 #head1 {
     font-family: "Montserrat";
     font-weight: 900;
@@ -148,7 +154,10 @@ body {
 
 .card {
     margin: 5% 5%;
+    text-align: center;
 }
+
+
 
 .card-header {
     text-align: center;
@@ -161,7 +170,7 @@ body {
 
 #cta {
     background-color: #ff4c68;
-    padding: 5% 5% 2.5% 5%;
+    padding: 5%;
     text-align: center;
     color: white;
 }
@@ -169,9 +178,15 @@ body {
 #footer {
     text-align: center;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
+
 
 
 .bottomDownload {
     margin: 1.5% .75% 1.5% .75%;
+}
+
+.iconBottom {
+    margin: 0 .75% 1.5%;
 }
