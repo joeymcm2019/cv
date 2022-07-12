@@ -4,7 +4,7 @@ body {
 
 #title {
     background-color: #ff4c68;
-    padding-bottom: 3%;
+    padding-bottom: 8%;
 }
 
 #head1 {
@@ -28,10 +28,16 @@ body {
 }
 
 .phone {
-    transform: rotate(25deg);
-    position: absolute; 
-    margin-top: 20%; 
-    left: 30px;
+    margin-top: 15%;
+}
+
+@media (min-width: 1028px){
+    .phone {
+        transform: rotate(25deg);
+        position: absolute; 
+        left: 30px;
+        margin-top: 20%; 
+    }
 }
 
 .navbar-brand {
